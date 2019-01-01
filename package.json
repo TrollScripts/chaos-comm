@@ -1,0 +1,27 @@
+{
+  "name": "chaos-comm",
+  "version": "0.1.0",
+  "description": "REST API for the Chaos Unit to receive commands from the Chaos Controller",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrollScripts/chaos-comm.git"
+  },
+  "author": "OpenChaos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrollScripts/chaos-comm/issues"
+  },
+  "homepage": "https://github.com/TrollScripts/chaos-comm#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
